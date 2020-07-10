@@ -27,7 +27,7 @@ def has_negatives(a):
     # now loop through the cache and comparing the lists
     for x in num_cache:
         print("this is x", num_cache)
-        if x in a:
+        if x * -1 in a:
             print("this is if x", x)
             result.append(x * -1)
     return result

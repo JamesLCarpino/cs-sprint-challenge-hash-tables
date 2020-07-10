@@ -34,7 +34,7 @@ def reconstruct_trip(tickets, length):
         c_ticket = cache[c_ticket]
         trips += 1
 
-    # array of entire route to be returned source
+    # array of entire route to be returned
 
     return route
 
